@@ -1,0 +1,113 @@
+==================================================
+BASIC RAYTRACING (dg/1)
+Rays with domain intersection: 7500 / 7500
+Total RecPoints found: 3904 / 7500
+Time needed: 0h 33min 44s 626ms
+Portion of integration: 69.456%
+==================================================
+REFINEMENT (dg/1-2)
+Rays considering for search: 17560 / 30000
+Total RecPoints found: 15648 / 17560
+Time needed: 0h 12min 23s 822ms
+Portion of integration: 74.3345%
+--------------------------------------------------
+POST PROCESSING (dg/1-2)
+Iteration 1 | RecPoints found: 11 / 2323
+Iteration 2 | RecPoints found: 1 / 20
+Iteration 3 | RecPoints found: 0 / 1
+Total RecPoints found: 12 (new: 2, updated: 10)
+Time needed: 0h 7min 8s 180ms
+Portion of integration: 67.6621%
+==================================================
+REFINEMENT (dg/1-2-4)
+Rays considering for search: 66596 / 120000
+Total RecPoints found: 62520 / 66596
+Time needed: 0h 35min 26s 866ms
+Portion of integration: 76.4954%
+--------------------------------------------------
+POST PROCESSING (dg/1-2-4)
+Iteration 1 | RecPoints found: 13 / 5876
+Iteration 2 | RecPoints found: 2 / 20
+Iteration 3 | RecPoints found: 0 / 0
+Total RecPoints found: 15 (new: 7, updated: 8)
+Time needed: 0h 18min 27s 27ms
+Portion of integration: 67.6746%
+==================================================
+REFINEMENT (dg/1-4)
+Rays considering for search: 70240 / 120000
+Total RecPoints found: 62541 / 70240
+Time needed: 0h 49min 58s 28ms
+Portion of integration: 74.0875%
+--------------------------------------------------
+POST PROCESSING (dg/1-4)
+Iteration 1 | RecPoints found: 64 / 5855
+Iteration 2 | RecPoints found: 11 / 56
+Iteration 3 | RecPoints found: 0 / 2
+Total RecPoints found: 75 (new: 22, updated: 53)
+Time needed: 0h 18min 12s 834ms
+Portion of integration: 67.6781%
+==================================================
+BASIC RAYTRACING (dg/2)
+Rays with domain intersection: 30000 / 30000
+Total RecPoints found: 15634 / 30000
+Time needed: 2h 13min 34s 858ms
+Portion of integration: 69.2891%
+==================================================
+REFINEMENT (dg/2-4)
+Rays considering for search: 66560 / 120000
+Total RecPoints found: 62517 / 66560
+Time needed: 0h 35min 16s 553ms
+Portion of integration: 76.4679%
+--------------------------------------------------
+POST PROCESSING (dg/2-4)
+Iteration 1 | RecPoints found: 15 / 5910
+Iteration 2 | RecPoints found: 1 / 23
+Iteration 3 | RecPoints found: 0 / 2
+Total RecPoints found: 16 (new: 10, updated: 6)
+Time needed: 0h 18min 24s 485ms
+Portion of integration: 67.5822%
+==================================================
+BASIC RAYTRACING (dg/4)
+Rays with domain intersection: 120000 / 120000
+Total RecPoints found: 62540 / 120000
+Time needed: 8h 43min 18s 422ms
+Portion of integration: 68.3881%
+==================================================
+SHADING (dg/4) - NORMALS BY NEIGHBORHOOD
+Total normals found: 62720 / 62540
+Time needed: 0h 0min 0s 214ms
+Creating texture
+Time needed: 0h 0min 0s 222ms
+--------------------------------------------------
+SHADING (dg/4) - NORMALS BY SAMPLING
+Total normals found: 62446 / 62540
+Time needed: 1h 25min 28s 399ms
+Portion of integration: 80.3269%
+Creating texture
+Time needed: 0h 0min 0s 222ms
+--------------------------------------------------
+SHADING (dg/4) - NORMALS BY HYBRID
+Total normals found: 62454 / 62540
+Time needed: 0h 3min 9s 311ms
+Portion of integration: 79.3758%
+Creating texture
+Time needed: 0h 0min 0s 220ms
+--------------------------------------------------
+SHADOWS (dg/4)
+Total shadows found: 15716 / 85974
+Time needed: 0h 50min 30s 789ms
+Portion of integration: 72.1744%
+Creating texture (shadow only)
+Time needed: 0h 0min 0s 116ms
+--------------------------------------------------
+SHADOW SHARPENING (dg/4)
+Iteration 1 | Shadows found: 10 / 6288
+Iteration 2 | Shadows found: 0 / 12
+Total shadows found: 10
+Time needed: 0h 19min 21s 125ms
+Portion of integration: 69.0834%
+Creating texture (shadow only)
+Time needed: 0h 0min 0s 118ms
+Creating texture (shadow and hybrid shading)
+Time needed: 0h 0min 0s 224ms
+==================================================

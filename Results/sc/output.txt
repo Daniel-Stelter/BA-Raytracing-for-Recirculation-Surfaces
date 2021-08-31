@@ -1,0 +1,77 @@
+==================================================
+BASIC RAYTRACING (sc/undersampled-1)
+Rays with domain intersection: 19335 / 52500
+Total RecPoints found: 12886 / 19335
+Time needed: 0h 49min 21s 576ms
+Portion of integration: 74.1381%
+==================================================
+BASIC RAYTRACING (sc/1)
+Rays with domain intersection: 19335 / 52500
+Total RecPoints found: 13143 / 19335
+Time needed: 2h 7min 7s 352ms
+Portion of integration: 52.804%
+==================================================
+REFINEMENT (sc/1-2)
+Rays considering for search: 57754 / 210000
+Total RecPoints found: 52299 / 57754
+Time needed: 2h 32min 52s 230ms
+Portion of integration: 58.6401%
+--------------------------------------------------
+POST PROCESSING (sc/1-2)
+Iteration 1 | RecPoints found: 291 / 10862
+Iteration 2 | RecPoints found: 18 / 268
+Iteration 3 | RecPoints found: 7 / 29
+Iteration 4 | RecPoints found: 4 / 15
+Iteration 5 | RecPoints found: 0 / 5
+Total RecPoints found: 320 (new: 144, updated: 176)
+Time needed: 1h 30min 10s 22ms
+Portion of integration: 57.2717%
+==================================================
+BASIC RAYTRACING (sc/2)
+Rays with domain intersection: 77347 / 210000
+Total RecPoints found: 52468 / 77347
+Time needed: 10h 10min 26s 289ms
+Portion of integration: 52.3673%
+==================================================
+SHADING (sc/2) - NORMALS BY NEIGHBORHOOD
+Total normals found: 47564 / 52468
+Time needed: 0h 0min 0s 346ms
+Creating texture
+Time needed: 0h 0min 0s 395ms
+--------------------------------------------------
+SHADING (sc/2) - NORMALS BY SAMPLING
+Total normals found: 52198 / 52468
+Time needed: 1h 3min 49s 741ms
+Portion of integration: 64.9316%
+Creating texture
+Time needed: 0h 0min 0s 451ms
+--------------------------------------------------
+SHADING (sc/2) - NORMALS BY HYBRID
+Total normals found: 52298 / 52468
+Time needed: 0h 20min 54s 369ms
+Portion of integration: 53.2058%
+Creating texture
+Time needed: 0h 0min 0s 384ms
+--------------------------------------------------
+SHADOWS (sc/2)
+Total shadows found: 35011 / 86904
+Time needed: 1h 52min 7s 669ms
+Portion of integration: 58.6817%
+Creating texture (shadow only)
+Time needed: 0h 0min 0s 240ms
+--------------------------------------------------
+SHADOW SHARPENING (sc/2)
+Iteration 1 | Shadows found: 167 / 12097
+Iteration 2 | Shadows found: 11 / 109
+Iteration 3 | Shadows found: 3 / 11
+Iteration 4 | Shadows found: 1 / 3
+Iteration 5 | Shadows found: 1 / 2
+Iteration 6 | Shadows found: 0 / 1
+Total shadows found: 183
+Time needed: 0h 47min 55s 663ms
+Portion of integration: 52.8029%
+Creating texture (shadow only)
+Time needed: 0h 0min 0s 244ms
+Creating texture (shadow and hybrid shading)
+Time needed: 0h 0min 0s 407ms
+==================================================
